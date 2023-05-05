@@ -1,4 +1,4 @@
-### Broad domain search w/ negative search
+### Broad domain search - negative search
 
 > site:example.com -www -pula
 
@@ -6,9 +6,9 @@
 
 > site:example.com ext:php inurl:?
 
-### Disclosed XSS and Open Redirects
+### PFpfpefpfpef
 
-> site:openbugbounty.org inurl:reports intext:"example.com"
+> site:example.com "romania"
 
 ### Juicy Extensions
 
