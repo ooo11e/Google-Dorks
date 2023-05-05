@@ -1,3 +1,7 @@
+### PHP extension w/ parameters
+
+> site:example.com ext:php inurl:?
+
 ### Broad domain search - negative search
 
 > site:example.com -www -pula
