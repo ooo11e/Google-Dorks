@@ -1,20 +1,8 @@
-### P-_____HP extension w/ parameters
-
-> site:example.com ext:php inurl:?
-
-### Broad domain search - negative search
-
-> site:example.com -www -pula
-
-### PHP extension w/ parameters
-
-> site:example.com ext:php inurl:?
-
 ### PFpfpefpfpef
 
 > site:example.com "romania"
 
-### Juicy Extensions
+### Juicy Extensionsaaaaaa
 
 > site:"example[.]com" ext:log | ext:txt | ext:conf | ext:cnf | ext:ini | ext:env | ext:sh | ext:bak | ext:backup | ext:swp | ext:old | ext:~ | ext:git | ext:svn | ext:htpasswd | ext:htaccess
 
