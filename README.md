@@ -1,4 +1,4 @@
-### PHP extension w/ parameters
+### P-_____HP extension w/ parameters
 
 > site:example.com ext:php inurl:?
 
