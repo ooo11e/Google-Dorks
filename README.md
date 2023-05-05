@@ -4,19 +4,35 @@
 
 ### A
 
+> site:XXXX
+
+> site:XXXX  ext:xml | ext:conf | ext:cnf | ext:reg | ext:inf | ext:rdp | ext:cfg | ext:txt | ext:ora | ext:ini
+
+> site:XXXX  ext:sql | ext:dbf | ext:mdb
+
+> site:XXXX  ext:log
+
+> site:XXXX  ext:bkf | ext:bkp | ext:bak | ext:old | ext:backup
+
+> site:XXXX  intext:"sql syntax near" | intext:"syntax error has occurred" | intext:"incorrect syntax near" | intext:"unexpected end of SQL command" | intext:"Warning: mysql_connect()" | intext:"Warning: mysql_query()" | intext:"Warning: pg_connect()"
+
+> site:XXXX  ext:doc | ext:docx | ext:odt | ext:pdf | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:csv
+
+> site:XXXX  ext:php intitle:phpinfo "published by the PHP Group"
+
+> site:XXXX  inurl:readme | inurl:license | inurl:install | inurl:setup | inurl:config
+
+> site:XXXX  ext:action | ext:struts | ext:do
+
+> site:linkedin.com employees "XXXX"
+
+> site:XXXX  inurl:"/phpinfo.php" | inurl:".htaccess" | inurl:"/.git" XXXX -github
+
+> site:XXXX  inurl:wp-content | inurl:wp-includes
+
 > site:XXXX  intext:"index of /.git"
 
 > site:XXXX  intitle:"index of"
-
-> site:XXXX  intext:"sql syntax near" | intext:"incorrect syntax near"
-
-### Normal
-
-> site:XXXX
-
-### Juicy Extensions
-
-> site:XXXX  ext:log | ext:txt | ext:conf | ext:cnf | ext:ini | ext:env | ext:sh | ext:bak | ext:backup | ext:swp | ext:old | ext:~ | ext:git | ext:svn | ext:htpasswd | ext:htaccess
 
 ### Code Leaks
 
@@ -57,38 +73,6 @@
 > site:box.com/s "XXXX"
 
 > site:docs.google.com inurl:"/d/" "XXXX"
-
-### XSS prone parameters
-
-> site:XXXX  inurl:&  inurl:q= | inurl:s= | inurl:search= | inurl:query=
-
-### Open Redirect prone parameters
-
-> site:XXXX  inurl:&  inurl:url= | inurl:return= | inurl:next= | inurl:redir=
-
-### SQLi Prone Parameters
-
-> site:XXXX  inurl:&  inurl:id= | inurl:pid= | inurl:category= | inurl:cat= | inurl:action= | inurl:sid= | inurl:dir=
-
-### SSRF Prone Parameters
-
-> site:XXXX  inurl:&  inurl:http | inurl:url= | inurl:path= | inurl:dest= | inurl:html= | inurl:data= | inurl:domain=  | inurl:page=
-
-### LFI Prone Parameters
-
-> site:XXXX  inurl:&  inurl:include= | inurl:dir= | inurl:detail= | inurl:file= | inurl:folder= | inurl:inc= | inurl:locate= | inurl:doc= | inurl:conf=
-
-### RCE Prone Parameters
-
-> site:XXXX  inurl:&  inurl:cmd= | inurl:exec= | inurl:query= | inurl:code= | inurl:do= | inurl:run= | inurl:read= | inurl:ping=
-
-### High % inurl keywords
-
-> site:XXXX  inurl:config | inurl:env | inurl:setting | inurl:backup | inurl:admin | inurl:php
-
-### Sensitive Parameters
-
-> site:XXXX  inurl:&  inurl:email= | inurl:phone= | inurl:password= | inurl:secret=
 
 ### API Docs
 
