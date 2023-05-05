@@ -5,10 +5,12 @@
 ###
 
 > site:XXXX  intext:"index of /.git"
-> site:XXXX  inurl:%3F
-> site:XXXX  intitle:"index of"
-> site:XXXX  intext:"sql syntax near" | intext:"incorrect syntax near"
 
+> site:XXXX  inurl:%3F
+
+> site:XXXX  intitle:"index of"
+
+> site:XXXX  intext:"sql syntax near" | intext:"incorrect syntax near"
 
 ### Normal
 
