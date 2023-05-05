@@ -2,6 +2,14 @@
 
 > ...
 
+###
+
+> site:XXXX  intext:"index of /.git"
+> site:XXXX  inurl:%3F
+> site:XXXX  intitle:"index of"
+> site:XXXX  intext:"sql syntax near" | intext:"incorrect syntax near"
+
+
 ### Normal
 
 > site:XXXX
@@ -21,6 +29,8 @@
 > site:codepen.io "XXXX"
 
 ### Cloud Storage
+
+> site:atlassian.net "XXXX"
 
 > site:s3.amazonaws.com "XXXX"
 
