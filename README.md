@@ -24,8 +24,6 @@
 
 > site:XXXX  ext:action | ext:struts | ext:do
 
-> site:linkedin.com employees "XXXX"
-
 > site:XXXX  inurl:"/phpinfo.php" | inurl:".htaccess" | inurl:"/.git" XXXX -github
 
 > site:XXXX  inurl:wp-content | inurl:wp-includes
@@ -39,6 +37,8 @@
 > site:XXXX  "choose file"
 
 ### (2)
+
+> site:linkedin.com employees "XXXX"
 
 > site:pastebin.com "XXXX"
 
