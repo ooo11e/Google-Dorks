@@ -24,8 +24,6 @@
 
 > site:XXXX  ext:action | ext:struts | ext:do
 
-> site:XXXX  inurl:"/phpinfo.php" | inurl:".htaccess" | inurl:"/.git" XXXX -github
-
 > site:XXXX  inurl:wp-content | inurl:wp-includes
 
 > site:XXXX  intext:"index of /.git"
