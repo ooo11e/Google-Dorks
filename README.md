@@ -2,7 +2,7 @@
 
 > ...
 
-### A
+### 
 
 > site:XXXX
 
@@ -34,7 +34,11 @@
 
 > site:XXXX  intitle:"index of"
 
-### Code Leaks
+> site:XXXX  inurl:apidocs | inurl:api-docs | inurl:swagger | inurl:api-explorer
+
+> site:XXXX  "choose file"
+
+###
 
 > site:pastebin.com "XXXX"
 
@@ -43,8 +47,6 @@
 > site:codebeautify.org "XXXX"
 
 > site:codepen.io "XXXX"
-
-### Cloud Storage
 
 > site:atlassian.net "XXXX"
 
@@ -73,11 +75,3 @@
 > site:box.com/s "XXXX"
 
 > site:docs.google.com inurl:"/d/" "XXXX"
-
-### API Docs
-
-> site:XXXX  inurl:apidocs | inurl:api-docs | inurl:swagger | inurl:api-explorer
-
-### File upload endpoints
-
-> site:XXXX  "choose file"
