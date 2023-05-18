@@ -9,7 +9,7 @@
 
 > site:XXXX  inurl:&
 
-> site:XXXX  inurl:login | inurl:signin | intitle:Login | intitle:signin | inurl:auth
+> site:XXXX  inurl:login | inurl:signin | intitle:Login | intitle:signin | inurl:auth | inurl:signup | inurl:register | intitle:Signup
 
 > site:XXXX  filetype:doc | filetype:pdf | filetype:docx | filetype:xls | filetype:dat | filetype:log 'password'
 
@@ -21,7 +21,7 @@
 
 > site:XXXX  intext:'index of /.git'
 
-> site:XXXX  intitle:'index of' | 'parent directory'
+> site:XXXX  intitle:index.of
 
 > site:XXXX  inurl:apidocs | inurl:api-docs | inurl:swagger | inurl:api-explorer
 
@@ -64,3 +64,7 @@
 > site:box.com/s 'XXXX'
 
 > site:docs.google.com inurl:'/d/' 'XXXX'
+
+### (3)
+
+> (XXXX) (site:*.*.29.* |site:*.*.28.* |site:*.*.27.* |site:*.*.26.* |site:*.*.25.* |site:*.*.24.* |site:*.*.23.* |site:*.*.22.* |site:*.*.21.* |site:*.*.20.* |site:*.*.19.* |site:*.*.18.* |site:*.*.17.* |site:*.*.16.* |site:*.*.15.* |site:*.*.14.* |site:*.*.13.* |site:*.*.12.* |site:*.*.11.* |site:*.*.10.* |site:*.*.9.* |site:*.*.8.* |site:*.*.7.* |site:*.*.6.* |site:*.*.5.* |site:*.*.4.* |site:*.*.3.* |site:*.*.2.* |site:*.*.1.* |site:*.*.0.*)
