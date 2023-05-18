@@ -25,8 +25,6 @@
 
 > site:XXXX  inurl:apidocs | inurl:api-docs | inurl:swagger | inurl:api-explorer
 
-> site:XXXX  'choose file'
-
 ### (2)
 
 > site:.s3.amazonaws.com 'XXXX'
