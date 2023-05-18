@@ -21,8 +21,6 @@
 
 > site:XXXX  inurl:readme | inurl:license | inurl:install | inurl:setup | inurl:config
 
-> site:XXXX  intext:'index of /.git'
-
 > site:XXXX  intitle:index.of
 
 > site:XXXX  inurl:apidocs | inurl:api-docs | inurl:swagger | inurl:api-explorer
