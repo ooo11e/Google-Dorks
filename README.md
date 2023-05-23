@@ -8,8 +8,49 @@
 
 > site:XXXX  inurl:&
 
-> site:XXXX  ext:bkf | ext:bkp | ext:cfg | ext:dbf | ext:mdb | ext:doc | ext:docx | ext:odt | ext:pdf | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:struts | ext:csv
-> site:XXXX  ext:php | ext:jsp | ext:asp | ext:aspx | ext:action | ext:do | ext:rb | ext:xml | ext:phtml | ext:yaml | ext:txt | ext:reg | ext:ini | ext:ora | ext:env | ext:inf | ext:rdp | ext:cnf | ext:conf | ext:old | ext:backup | ext:bak | ext:bakp | ext:log | ext:sql | ext:jspx
+> site:XXXX  ext:bkf
+> site:XXXX  ext:bkp 
+> site:XXXX  ext:cfg 
+> site:XXXX  ext:dbf 
+> site:XXXX  ext:mdb 
+> site:XXXX  ext:doc 
+> site:XXXX  ext:docx 
+> site:XXXX  ext:odt 
+> site:XXXX  ext:pdf 
+> site:XXXX  ext:rtf 
+> site:XXXX  ext:sxw 
+> site:XXXX  ext:psw 
+> site:XXXX  ext:ppt 
+> site:XXXX  ext:pptx 
+> site:XXXX  ext:pps 
+> site:XXXX  ext:struts 
+> site:XXXX  ext:csv
+> site:XXXX  ext:php 
+> site:XXXX  ext:jsp 
+> site:XXXX  ext:asp 
+> site:XXXX  ext:aspx 
+> site:XXXX  ext:action 
+> site:XXXX  ext:do 
+> site:XXXX  ext:rb 
+> site:XXXX  ext:xml 
+> site:XXXX  ext:phtml 
+> site:XXXX  ext:yaml 
+> site:XXXX  ext:txt 
+> site:XXXX  ext:reg 
+> site:XXXX  ext:ini 
+> site:XXXX  ext:ora 
+> site:XXXX  ext:env 
+> site:XXXX  ext:inf 
+> site:XXXX  ext:rdp 
+> site:XXXX  ext:cnf 
+> site:XXXX  ext:conf 
+> site:XXXX  ext:old 
+> site:XXXX  ext:backup 
+> site:XXXX  ext:bak 
+> site:XXXX  ext:bakp 
+> site:XXXX  ext:log 
+> site:XXXX  ext:sql 
+> site:XXXX  ext:jspx
 
 > site:XXXX  inurl:login | inurl:signin | intitle:Login | intitle:signin | inurl:auth | inurl:signup | inurl:register | intitle:Signup
 
