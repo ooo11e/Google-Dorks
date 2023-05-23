@@ -9,7 +9,7 @@
 > site:XXXX  inurl:&
 
 > site:XXXX  ext:bkf | ext:bkp | ext:cfg | ext:dbf | ext:mdb | ext:doc | ext:docx | ext:odt | ext:pdf | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:struts | ext:csv
-> site:XXXX  ext:php | ext:jsp | ext:asp | ext:aspx | ext:action | ext:do | ext:rb | ext:xml | ext:phtml | ext:yaml | ext:txt | ext:reg | ext:ini | ext:ora | ext:env | ext:inf | ext:rdp | ext:cnf | ext:conf | ext:old | ext:backup | ext:bak | ext:bakp | ext:log | ext:sql
+> site:XXXX  ext:php | ext:jsp | ext:asp | ext:aspx | ext:action | ext:do | ext:rb | ext:xml | ext:phtml | ext:yaml | ext:txt | ext:reg | ext:ini | ext:ora | ext:env | ext:inf | ext:rdp | ext:cnf | ext:conf | ext:old | ext:backup | ext:bak | ext:bakp | ext:log | ext:sql | ext:jspx
 
 > site:XXXX  inurl:login | inurl:signin | intitle:Login | intitle:signin | inurl:auth | inurl:signup | inurl:register | intitle:Signup
 
