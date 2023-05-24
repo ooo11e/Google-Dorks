@@ -52,7 +52,7 @@
 > site:XXXX  ext:sql 
 > site:XXXX  ext:jspx
 
-> site:XXXX  inurl:login | inurl:signin | intitle:Login | intitle:signin | inurl:auth | inurl:signup | inurl:register | intitle:Signup
+> site:XXXX  inurl:login | inurl:signin | intitle:login | intitle:signin | inurl:auth | inurl:signup | inurl:register | intitle:signup
 
 > site:XXXX  intext:'sql syntax near' | intext:'syntax error has occurred' | intext:'incorrect syntax near' | intext:'unexpected end of SQL command' | intext:'Warning: mysql_connect()' | intext:'Warning: mysql_query()' | intext:'Warning: pg_connect()'
 
