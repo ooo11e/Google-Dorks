@@ -13,16 +13,10 @@
 > site:XXXX  ext:cfg 
 > site:XXXX  ext:dbf 
 > site:XXXX  ext:mdb 
-> site:XXXX  ext:doc 
-> site:XXXX  ext:docx 
 > site:XXXX  ext:odt 
-> site:XXXX  ext:pdf 
 > site:XXXX  ext:rtf 
 > site:XXXX  ext:sxw 
 > site:XXXX  ext:psw 
-> site:XXXX  ext:ppt 
-> site:XXXX  ext:pptx 
-> site:XXXX  ext:pps 
 > site:XXXX  ext:struts 
 > site:XXXX  ext:csv
 > site:XXXX  ext:php 
