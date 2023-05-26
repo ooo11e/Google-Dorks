@@ -12,6 +12,7 @@
 > site:XXXX  ext:csv | ext:php | ext:jsp | ext:asp  | ext:aspx | ext:action | ext:do | ext:rb | ext:xml | ext:phtml 
 > site:XXXX  ext:yaml | ext:txt | ext:reg | ext:ini | ext:ora | ext:env | ext:inf | ext:rdp | ext:cnf | ext:conf 
 > site:XXXX  ext:old | ext:backup | ext:bak | ext:bakp  | ext:log | ext:sql | ext:jspx
+> site:XXXX  ext:doc | ext:pdf | ext:xls | ext:ppt
 
 > site:XXXX  inurl:login | inurl:signin | intitle:login | intitle:signin | inurl:auth | inurl:signup | inurl:register | intitle:signup
 
