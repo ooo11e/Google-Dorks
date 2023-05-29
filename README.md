@@ -19,6 +19,7 @@
 
 ### .git folder
 > site:XXXX  inurl:"/.git"
+> site:XXXX  ( intext:"index of /.git" ) ( "parent directory" )
 
 ### Exposed documents
 > site:XXXX  ext:doc | ext:docx | ext:odt | ext:pdf | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:csv
@@ -33,9 +34,6 @@
 ### Login pages
 > site:XXXX  AND ( inurl:login | inurl:signin | intitle:login | intitle:signin | inurl:auth | inurl:signup | inurl:register | intitle:signup )
 
-### Open redirects
-> site:XXXX  AND ( inurl:redir | inurl:url | inurl:redirect | inurl:return | inurl:location | inurl:next | inurl:dest | inurl:src=http | inurl:r=http )
-
 ### Apache Struts RCE
 > site:XXXX  ( ext:action | ext:struts | ext:do )
 
@@ -45,60 +43,30 @@
 > site:XXXX  intitle:"Index of" "wp-admin"
 
 ### Other files
-> site:XXXX  AND ( intitle:index.of | ext:log | inurl:shell | inurl:backdoor | inurl:wso | inurl:cmd | shadow | passwd | boot.ini | inurl:backdoor | inurl:readme | inurl:license | inurl:install | inurl:setup | inurl:config | inurl:"/phpinfo.php" | inurl:".htaccess" | ext:swf )
-> site:XXXX  AND ( ext:env | ext:log | ext:sql | ext:yml | ext:pem | ext:ini | ext:logs | ext:ibd | ext:txt | ext:php.txt | ext:old | ext:key | ext:frm | ext:bak | ext:zip | ext:swp | ext:conf | ext:db | ext:config | ext:ovpn | ext:svn | ext:git | ext:cfg | ext:exs | ext:dbf | ext:mdb | ext:pem | ext:pub | ext:yaml | ext:zip | ext:asc | ext:xls | ext:xlsx )
+> site:XXXX  AND ( intitle:index.of | ext:log | inurl:shell | inurl:wso | inurl:cmd | shadow | passwd | boot.ini | inurl:backdoor | inurl:readme | inurl:license | inurl:install | inurl:setup | inurl:config | inurl:"/phpinfo.php" | inurl:".htaccess" | ext:swf )
+> site:XXXX  AND ( ext:env | ext:log | ext:sql | ext:yml | ext:pem | ext:ini | ext:logs | ext:ibd | ext:txt | ext:php.txt | ext:old | ext:key | ext:frm | ext:bak | ext:zip | ext:swp | ext:conf )
+> site:XXXX  AND ( ext:db | ext:config | ext:ovpn | ext:svn | ext:git | ext:cfg | ext:exs | ext:dbf | ext:mdb | ext:pem | ext:pub | ext:yaml | ext:zip | ext:asc | ext:xls | ext:xlsx )
 
-
-
-> site:XXXX  
-> site:XXXX  
-> site:XXXX  
-> site:XXXX  
-> site:XXXX  
-> site:XXXX  
-> site:XXXX  
-> site:XXXX  
-> site:XXXX  
-> site:XXXX  
-> site:XXXX  
-> site:XXXX  
-> site:XXXX  
-> site:XXXX  
-> site:XXXX  
-> site:XXXX  
-> site:XXXX  
-> site:XXXX  
-> site:XXXX  
-> site:XXXX  
-
-
-
-
-> site:XXXX  ext:bkf | ext:bkp | ext:cfg | ext:dbf | ext:mdb | ext:odt | ext:rtf | ext:sxw | ext:psw | ext:struts 
-> site:XXXX  ext:csv | ext:php | ext:jsp | ext:asp  | ext:aspx | ext:action | ext:do | ext:rb | ext:xml | ext:phtml 
-> site:XXXX  ext:yaml | ext:txt | ext:reg | ext:ini | ext:ora | ext:env | ext:inf | ext:rdp | ext:cnf | ext:conf 
-> site:XXXX  ext:old | ext:backup | ext:bak | ext:bakp  | ext:log | ext:sql | ext:jspx
-> site:XXXX  ext:doc | ext:pdf | ext:xls | ext:ppt
-
-> site:XXXX  inurl:login | inurl:signin | intitle:login | intitle:signin | inurl:auth | inurl:signup | inurl:register | intitle:signup
-
-> site:XXXX  intext:'sql syntax near' | intext:'syntax error has occurred' | intext:'incorrect syntax near' | intext:'unexpected end of SQL command' | intext:'Warning: mysql_connect()' | intext:'Warning: mysql_query()' | intext:'Warning: pg_connect()'
-
-> site:XXXX  ext:php intitle:phpinfo 'published by the PHP Group'
-
-> site:XXXX  inurl:readme | inurl:license | inurl:install | inurl:setup | inurl:config
-
-> site:XXXX  intitle:index.of
-
+### API docs
 > site:XXXX  inurl:apidocs | inurl:api-docs | inurl:swagger | inurl:api-explorer
 
 ### (2)
+
+> intext:XXXX AND ( site:s3-external-1.amazonaws.com | site:s3.amazonaws.com )
+
+> intext:XXXX AND ( site:s3.af-south-1.amazonaws.com | site:s3.ap-east-1.amazonaws.com | site:s3.ap-northeast-1.amazonaws.com | site:s3.ap-northeast-2.amazonaws.com | site:s3.ap-northeast-3.amazonaws.com | site:s3.ap-south-1.amazonaws.com | site:s3.ap-south-2.amazonaws.com | site:s3.ap-southeast-1.amazonaws.com | site:s3.ap-southeast-2.amazonaws.com | site:s3.ap-southeast-3.amazonaws.com | site:s3.ap-southeast-4.amazonaws.com | site:s3.ca-central-1.amazonaws.com | site:s3.eu-central-1.amazonaws.com | site:s3.eu-central-2.amazonaws.com | site:s3.eu-north-1.amazonaws.com | site:s3.eu-south-1.amazonaws.com | site:s3.eu-south-2.amazonaws.com | site:s3.eu-west-1.amazonaws.com | site:s3.eu-west-2.amazonaws.com | site:s3.eu-west-3.amazonaws.com | site:s3.me-central-1.amazonaws.com | site:s3.me-south-1.amazonaws.com | site:s3.sa-east-1.amazonaws.com | site:s3.us-east-1.amazonaws.com | site:s3.us-east-2.amazonaws.com | site:s3.us-gov-east-1.amazonaws.com | site:s3.us-gov-west-1.amazonaws.com | site:s3.us-west-1.amazonaws.com | site:s3.us-west-2.amazonaws.com )
+
+> intext:XXXX AND ( site:s3.dualstack.af-south-1.amazonaws.com | site:s3.dualstack.ap-east-1.amazonaws.com | site:s3.dualstack.ap-northeast-1.amazonaws.com | site:s3.dualstack.ap-northeast-2.amazonaws.com | site:s3.dualstack.ap-northeast-3.amazonaws.com | site:s3.dualstack.ap-south-1.amazonaws.com | site:s3.dualstack.ap-south-2.amazonaws.com | site:s3.dualstack.ap-southeast-1.amazonaws.com | site:s3.dualstack.ap-southeast-2.amazonaws.com | site:s3.dualstack.ap-southeast-3.amazonaws.com | site:s3.dualstack.ap-southeast-4.amazonaws.com | site:s3.dualstack.ca-central-1.amazonaws.com | site:s3.dualstack.eu-central-1.amazonaws.com | site:s3.dualstack.eu-central-2.amazonaws.com | site:s3.dualstack.eu-north-1.amazonaws.com | site:s3.dualstack.eu-south-1.amazonaws.com | site:s3.dualstack.eu-south-2.amazonaws.com | site:s3.dualstack.eu-west-1.amazonaws.com | site:s3.dualstack.eu-west-2.amazonaws.com | site:s3.dualstack.eu-west-3.amazonaws.com | site:s3.dualstack.me-central-1.amazonaws.com | site:s3.dualstack.me-south-1.amazonaws.com | site:s3.dualstack.sa-east-1.amazonaws.com | site:s3.dualstack.us-east-1.amazonaws.com | site:s3.dualstack.us-east-2.amazonaws.com | site:s3.dualstack.us-gov-east-1.amazonaws.com | site:s3.dualstack.us-gov-west-1.amazonaws.com | site:s3.dualstack.us-west-1.amazonaws.com | site:s3.dualstack.us-west-2.amazonaws.com )
 
 > site:.s3.amazonaws.com 'XXXX'
 
 > site:stackoverflow.com 'XXXX'
 
 > site:pastebin.com | site:paste2.org | site:pastehtml.com | site:slexy.org | site:snipplr.com | site:snipt.net | site:textsnip.com | site:bitpaste.app | site:justpaste.it | site:heypasteit.com | site:hastebin.com | site:dpaste.org | site:dpaste.com | site:codepad.org | site:jsitor.com | site:codepen.io | site:jsfiddle.net | site:dotnetfiddle.net | site:phpfiddle.org | site:ide.geeksforgeeks.org | site:repl.it | site:ideone.com | site:paste.debian.net | site:paste.org | site:paste.org.ru | site:codebeautify.org  | site:codeshare.io | site:trello.com 'XXXX'
+
+> site:justpaste.it | site:libraries.io | site:npmjs.com | site:npm.runit.com | site:npm.runkit.com | site:papaly.com | site:paste2.org | site:pastebin.com | site:paste.debian.net | site:pastehtml.com | site:paste.org | site:phpfiddle.org | site:prezi.com | site:productforums.google.com | site:repl.it | site:replt.it | site:scribd.com | site:sharecode.io | site:snipplr.com | site:trello.com | site:ycombinator.com 'XXXX'
+
+> site:bitpaste.app | site:codebeautify.org | site:codepad.co | site:codepad.co |site:ideone.com | site:codepad.org | site:codepen.io | site:codeshare.io | site:coggle.it | site:controlc.com | site:dotnetfiddle.net | site:dpaste.com | site:dpaste.org | site:gitter.im | site:hastebin.com | site:heypasteit.com | site:ide.geeksforgeeks.org | site:ideone.com | site:jsdelivr.com | site:jsdelivr.net | site:jsfiddle.net 'XXXX'
 
 > site:linkedin.com employees 'XXXX'
 
@@ -122,11 +90,15 @@
 
 > site:s3-external-1.amazonaws.com 'XXXX'
 
+> site:storage.googleapis.com 'XXXX'
+
 > site:s3.dualstack.us-east-1.amazonaws.com 'XXXX'
 
 > site:dropbox.com/s 'XXXX'
 
 > site:box.com/s 'XXXX'
+
+> site:github.com | site:gitlab.com | site:bitbucket.org 'XXXX'
 
 > site:docs.google.com inurl:'/d/' 'XXXX'
 
