@@ -18,7 +18,6 @@
 > site:XXXX  ext:bkf | ext:bkp | ext:bak | ext:old | ext:backup
 
 ### .git folder
-> site:XXXX  inurl:"/.git"
 > site:XXXX  ( intext:"index of /.git" ) ( "parent directory" )
 
 ### Exposed documents
