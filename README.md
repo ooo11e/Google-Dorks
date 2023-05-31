@@ -6,47 +6,39 @@
 
 > site:XXXX
 
+> site:*.XXXX
+
+> site:*.*.XXXX
+
 > site:XXXX  inurl:&
 
-### Config files
 > site:XXXX  ext:xml | ext:conf | ext:cnf | ext:reg | ext:inf | ext:rdp | ext:cfg | ext:txt | ext:ora | ext:env | ext:ini
 
-### Database files
 > site:XXXX  ext:sql | ext:db | ext:dbf | ext:mdb | ext:sql.gz | ext:sql.gz | ext:db.gz | ext:db.gz
 
-### Backup files
 > site:XXXX  ext:bkf | ext:bkp | ext:bak | ext:old | ext:backup
 
-### .git folder
 > site:XXXX  ( intext:"index of /.git" ) ( "parent directory" )
 
-### Exposed documents
 > site:XXXX  ext:doc | ext:docx | ext:odt | ext:pdf | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:csv
 
-### SQL errors
 > site:XXXX  AND ( intext:"sql syntax near" | intext:"syntax error has occurred" | intext:"incorrect syntax near" | intext:"unexpected end of SQL command" | intext:"Warning: mysql_connect()" | intext:"Warning: mysql_query()" | intext:"Warning: pg_connect()" )
 
-### PHP errors
 > site:XXXX  AND ( "PHP Parse error" | "PHP Warning" | "PHP Error" )
 > site:XXXX  inurl:phpmyadmin "Index of" 
 
-### Login pages
 > site:XXXX  AND ( inurl:login | inurl:signin | intitle:login | intitle:signin | inurl:auth | inurl:signup | inurl:register | intitle:signup )
 
-### Apache Struts RCE
 > site:XXXX  ( ext:action | ext:struts | ext:do )
 
-### Wordpress files
 > site:XXXX  AND ( inurl:wp-content | inurl:wp-includes )
 > site:XXXX  inurl:wp-config.php intext:DB_PASSWORD
 > site:XXXX  intitle:"Index of" "wp-admin"
 
-### Other files
 > site:XXXX  AND ( intitle:index.of | ext:log | inurl:shell | inurl:wso | inurl:cmd | shadow | passwd | boot.ini | inurl:backdoor | inurl:readme | inurl:license | inurl:install | inurl:setup | inurl:config | inurl:"/phpinfo.php" | inurl:".htaccess" | ext:swf )
 > site:XXXX  AND ( ext:env | ext:log | ext:sql | ext:yml | ext:pem | ext:ini | ext:logs | ext:ibd | ext:txt | ext:php.txt | ext:old | ext:key | ext:frm | ext:bak | ext:zip | ext:swp | ext:conf )
 > site:XXXX  AND ( ext:db | ext:config | ext:ovpn | ext:svn | ext:git | ext:cfg | ext:exs | ext:dbf | ext:mdb | ext:pem | ext:pub | ext:yaml | ext:zip | ext:asc | ext:xls | ext:xlsx )
 
-### API docs
 > site:XXXX  inurl:apidocs | inurl:api-docs | inurl:swagger | inurl:api-explorer
 
 ### (2)
