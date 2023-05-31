@@ -31,10 +31,6 @@
 
 > site:XXXX  ( ext:action | ext:struts | ext:do )
 
-> site:XXXX  AND ( inurl:wp-content | inurl:wp-includes )
-> site:XXXX  inurl:wp-config.php intext:DB_PASSWORD
-> site:XXXX  intitle:"Index of" "wp-admin"
-
 > site:XXXX  AND ( intitle:index.of | ext:log | inurl:shell | inurl:wso | inurl:cmd | shadow | passwd | boot.ini | inurl:backdoor | inurl:readme | inurl:license | inurl:install | inurl:setup | inurl:config | inurl:"/phpinfo.php" | inurl:".htaccess" | ext:swf )
 > site:XXXX  AND ( ext:env | ext:log | ext:sql | ext:yml | ext:pem | ext:ini | ext:logs | ext:ibd | ext:txt | ext:php.txt | ext:old | ext:key | ext:frm | ext:bak | ext:zip | ext:swp | ext:conf )
 > site:XXXX  AND ( ext:db | ext:config | ext:ovpn | ext:svn | ext:git | ext:cfg | ext:exs | ext:dbf | ext:mdb | ext:pem | ext:pub | ext:yaml | ext:zip | ext:asc | ext:xls | ext:xlsx )
