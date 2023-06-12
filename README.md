@@ -14,7 +14,8 @@
 
 > site:XXXX  ext:bkf | ext:bkp | ext:bak | ext:old | ext:backup
 
-> site:XXXX  ( intext:"index of /.git" ) ( "parent directory" )
+> site:XXXX  ( intitle:"index of /.git" ) ( "parent directory" )
+> site:XXXX  ( intitle:"index of /" )
 
 > site:XXXX  ext:doc | ext:docx | ext:odt | ext:pdf | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:csv
 
