@@ -8,6 +8,8 @@
 
 > site:XXXX  inurl:&
 
+> site:XXXX  intext:*.@gmail.com
+
 > site:XXXX  ext:xml | ext:conf | ext:cnf | ext:reg | ext:inf | ext:rdp | ext:cfg | ext:txt | ext:ora | ext:env | ext:ini
 
 > site:XXXX  ext:sql | ext:db | ext:dbf | ext:mdb | ext:sql.gz | ext:sql.gz | ext:db.gz | ext:db.gz
@@ -17,7 +19,9 @@
 > site:XXXX  ( intitle:"index of /.git" ) ( "parent directory" )
 > site:XXXX  ( intitle:"index of /" )
 
-> site:XXXX  ext:doc | ext:docx | ext:odt | ext:pdf | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:csv
+> site:XXXX  ext:pdf
+
+> site:XXXX  ext:doc | ext:docx | ext:odt | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:csv
 
 > site:XXXX  AND ( intext:"sql syntax near" | intext:"syntax error has occurred" | intext:"incorrect syntax near" | intext:"unexpected end of SQL command" | intext:"Warning: mysql_connect()" | intext:"Warning: mysql_query()" | intext:"Warning: pg_connect()" )
 
