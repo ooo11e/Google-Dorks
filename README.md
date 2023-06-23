@@ -10,6 +10,8 @@
 
 > site:XXXX  intext:*.@gmail.com
 
+> site:XXXX  "gitlab" ext:xml
+
 > site:XXXX  ext:xml | ext:conf | ext:cnf | ext:reg | ext:inf | ext:rdp | ext:cfg | ext:txt | ext:ora | ext:env | ext:ini
 
 > site:XXXX  ext:sql | ext:db | ext:dbf | ext:mdb | ext:sql.gz | ext:sql.gz | ext:db.gz | ext:db.gz
