@@ -6,11 +6,7 @@
 
 > site:XXXX  
 
-> site:XXXX  inurl:&
-
 > site:XXXX  intext:*.@gmail.com
-
-> site:XXXX  "gitlab" ext:xml
 
 > site:XXXX  ext:xml | ext:conf | ext:cnf | ext:reg | ext:inf | ext:rdp | ext:cfg | ext:txt | ext:ora | ext:env | ext:ini
 
